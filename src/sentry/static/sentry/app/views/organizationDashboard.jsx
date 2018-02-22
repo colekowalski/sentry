@@ -228,7 +228,7 @@ const ProjectListOld = createReactClass({
   },
 });
 
-const ProjectList = createReactClass({
+export const ProjectList = createReactClass({
   displayName: 'ProjectList',
 
   propTypes: {
@@ -341,7 +341,7 @@ class Activity extends React.Component {
   }
 }
 
-const OrganizationDashboard = createReactClass({
+export const OrganizationDashboard = createReactClass({
   displayName: 'OrganizationDashboard',
   mixins: [
     ApiMixin,
@@ -425,5 +425,3 @@ const OrganizationDashboard = createReactClass({
     );
   },
 });
-
-export default OrganizationDashboard;
