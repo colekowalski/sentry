@@ -341,7 +341,7 @@ class Activity extends React.Component {
   }
 }
 
-export const OrganizationDashboard = createReactClass({
+const OrganizationDashboard = createReactClass({
   displayName: 'OrganizationDashboard',
   mixins: [
     ApiMixin,
@@ -425,3 +425,5 @@ export const OrganizationDashboard = createReactClass({
     );
   },
 });
+
+export default OrganizationDashboard;

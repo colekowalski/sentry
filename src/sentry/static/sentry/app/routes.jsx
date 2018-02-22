@@ -43,7 +43,7 @@ import OrganizationAuditLogView from './views/settings/organization/auditLog/aud
 import OrganizationAuthView from './views/settings/organization/auth/organizationAuthView';
 import OrganizationContext from './views/organizationContext';
 import OrganizationCreate from './views/organizationCreate';
-import {OrganizationDashboard} from './views/organizationDashboard';
+import OrganizationDashboard from './views/organizationDashboard';
 import OrganizationDetails from './views/organizationDetails';
 import OrganizationHomeContainer from './components/organizations/homeContainer';
 import OrganizationIntegrations from './views/organizationIntegrations';
